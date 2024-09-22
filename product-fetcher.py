@@ -1,317 +1,222 @@
-import requests
-import pandas as pd
-# start timing the execution
-import time
+redirectToProduct': None, 'thumbnailImageUuid': 'a9d11412-7525-4f5b-ba48-3977e8ce3000.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-20T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 4}, '__typename': 'PostEdge'}, {'node': {'id': '482236', 'commentsCount': 0, 'name': 'Pactom', 'shortenedUrl': '/r/p/482236', 'slug': 'pactom', 'tagline': 'Tu nuevo abogado', 'updatedAt': '2024-09-22T08:11:49-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '259', 'name': 'Legal', 'slug': 'legal', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '2c55a549-0f08-42fe-9c23-c08e21a8dffa.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-20T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 3}, '__typename': 'PostEdge'}, {'node': {'id': '482194', 'commentsCount': 13, 'name': 'EasyLytics', 'shortenedUrl': '/r/p/482194', 'slug': 'easylytics', 'tagline': 'Chat with your data from multiple platforms with our AI 💬', 'updatedAt': '2024-09-22T08:11:37-07:00', 'pricingType': 'payment_required', 'topics': {'edges': [{'node': {'id': '108', 'name': 'Analytics', 'slug': 'analytics', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'ee5cea39-f3af-4072-bc2c-4f441e94855a.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-20T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 10}, '__typename': 'PostEdge'}], 'pageInfo': {'endCursor': 'MTYw', 'hasNextPage': True, '__typename': 'PageInfo'}, '__typename': 'PostConnection'}}}
+{'data': {'posts': {'edges': [{'node': {'id': '482134', 'commentsCount': 1, 'name': 'Beyond Bot AI HUB', 'shortenedUrl': '/r/p/482134', 'slug': 'beyond-bot-ai-hub', 'tagline': 'Craft, Train, and Perfect Your Virtual Experts with AI.', 'updatedAt': '2024-09-22T08:11:45-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '60', 'name': 'Messaging', 'slug': 'messaging', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '61b3bfc3-3d69-4952-b698-11dface87910.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-20T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}, {'node': {'id': '481734', 'commentsCount': 0, 'name': ' Made for Planet', 'shortenedUrl': '/r/p/481734', 'slug': 'made-for-planet', 'tagline': 'Sustainable choices made easy', 'updatedAt': '2024-09-22T08:11:43-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '164', 'name': 'Marketing', 'slug': 'marketing', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '49bae573-90cc-4baa-bf6d-4fe7ff7ae6d0.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-20T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}, {'node': {'id': '453377', 'commentsCount': 1, 'name': 'Migration Bridge', 'shortenedUrl': '/r/p/453377', 'slug': 'migration-bridge', 'tagline': 'Migrate your site from one platform to another in Seconds.', 'updatedAt': '2024-09-22T08:11:45-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '237', 'name': 'SaaS', 'slug': 'saas', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'b1998421-44d3-4ae4-9303-466907c0c538.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-20T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}], 'pageInfo': {'endCursor': 'MTYz', 'hasNextPage': False, '__typename': 'PageInfo'}, '__typename': 'PostConnection'}}}
+2024-09-21
+{'data': {'posts': {'edges': [{'node': {'id': '490381', 'commentsCount': 128, 'name': 'UI Replicator', 'shortenedUrl': '/r/p/490381', 'slug': 'ui-replicator', 'tagline': 'Clone any website with just one click', 'updatedAt': '2024-09-22T14:11:10-07:00', 'pricingType': 'payment_required', 'topics': {'edges': [{'node': {'id': '34', 'name': 'Chrome Extensions', 'slug': 'chrome-extensions', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'e3e5bd2f-594b-4426-8db4-c40b6ee8f01c.x-icon', 'productState': 'default', '__typename': 'Post', 'featuredAt': '2024-09-21T00:01:00-07:00', 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 543}, '__typename': 'PostEdge'}, {'node': {'id': '491048', 'commentsCount': 123, 'name': 'Founder Mode Checker', 'shortenedUrl': '/r/p/491048', 'slug': 'founder-mode-checker', 'tagline': "Find out if you're in Founder Mode or Manager Mode.", 'updatedAt': '2024-09-22T14:12:55-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '21', 'name': 'Web App', 'slug': 'web-app', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '022fddf0-57ce-481d-828e-8ba4c48432b6.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': '2024-09-21T00:01:00-07:00', 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 377}, '__typename': 'PostEdge'}, {'node': {'id': '490973', 'commentsCount': 71, 'name': 'Coursezy', 'shortenedUrl': '/r/p/490973', 'slug': 'coursezy', 'tagline': 'AI Powered Course Creation in Minutes', 'updatedAt': '2024-09-22T12:37:47-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '46', 'name': 'Productivity', 'slug': 'productivity', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'e7d613f3-6535-4751-a3c7-795c3592ecf3.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': '2024-09-21T00:01:00-07:00', 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 255}, '__typename': 'PostEdge'}, {'node': {'id': '491025', 'commentsCount': 43, 'name': 'Voz AI Voice Note Taker', 'shortenedUrl': '/r/p/491025', 'slug': 'voz-ai-voice-note-taker', 'tagline': 'Record, transcribe, & create structured notes automagically', 'updatedAt': '2024-09-22T14:09:27-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '46', 'name': 'Productivity', 'slug': 'productivity', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '5ac79415-545d-43c4-b00a-314e7683a8a7.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': '2024-09-21T00:01:00-07:00', 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 221}, '__typename': 'PostEdge'}, {'node': {'id': '490896', 'commentsCount': 42, 'name': 'PolyPlan', 'shortenedUrl': '/r/p/490896', 'slug': 'polyplan-2', 'tagline': 'A daily planner that syncs with your favorite apps', 'updatedAt': '2024-09-22T14:14:01-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '46', 'name': 'Productivity', 'slug': 'productivity', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'ce8974cd-ebea-4504-a188-5e67df96974f.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': '2024-09-21T00:01:00-07:00', 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 213}, '__typename': 'PostEdge'}, {'node': {'id': '490909', 'commentsCount': 45, 'name': 'Lazyva', 'shortenedUrl': '/r/p/490909', 'slug': 'lazyva', 'tagline': 'An online design tool', 'updatedAt': '2024-09-22T11:52:23-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '44', 'name': 'Design Tools', 'slug': 'design-tools', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'de4bb241-635e-410b-974b-a0a45a422298.x-icon', 'productState': 'default', '__typename': 'Post', 'featuredAt': '2024-09-21T00:01:00-07:00', 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 154}, '__typename': 'PostEdge'}, {'node': {'id': '490949', 'commentsCount': 24, 'name': 'Lyrcs', 'shortenedUrl': '/r/p/490949', 'slug': 'lyrcs', 'tagline': 'Lyrics, poetry and rap writing app', 'updatedAt': '2024-09-22T13:51:09-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '46', 'name': 'Productivity', 'slug': 'productivity', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '4819980f-c308-4428-85d9-79a1918c28e4.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': '2024-09-21T00:01:00-07:00', 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 129}, '__typename': 'PostEdge'}, {'node': {'id': '490866', 'commentsCount': 29, 'name': 'TPlanz', 'shortenedUrl': '/r/p/490866', 'slug': 'tplanz', 'tagline': 'Team workload planning & project financial overview', 'updatedAt': '2024-09-22T13:51:11-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '131', 'name': 'Spreadsheets', 'slug': 'spreadsheets', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '4c22a2f2-70b7-4fdb-a40e-14e6a0dd85c2.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': '2024-09-21T00:01:00-07:00', 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 129}, '__typename': 'PostEdge'}, {'node': {'id': '481844', 'commentsCount': 29, 'name': 'My Yogi', 'shortenedUrl': '/r/p/481844', 'slug': 'my-yogi', 'tagline': 'Manage and create yoga sequences', 'updatedAt': '2024-09-22T13:51:12-07:00', 'pricingType': 'payment_required', 'topics': {'edges': [{'node': {'id': '2', 'name': 'Android', 'slug': 'android', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '4822390d-e18e-4ddb-88ff-7c76f5af9ad2.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': '2024-09-21T00:01:00-07:00', 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 114}, '__typename': 'PostEdge'}, {'node': {'id': '490975', 'commentsCount': 27, 'name': 'PowerCharts', 'shortenedUrl': '/r/p/490975', 'slug': 'powercharts', 'tagline': 'Mac Battery Data Visualization', 'updatedAt': '2024-09-22T13:51:12-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '19', 'name': 'Mac', 'slug': 'mac', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '2c55d440-dc72-4842-b203-9dc5d7d6d73f.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': '2024-09-21T00:01:00-07:00', 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 115}, '__typename': 'PostEdge'}, {'node': {'id': '491075', 'commentsCount': 33, 'name': 'JoyCapture', 'shortenedUrl': '/r/p/491075', 'slug': 'joycapture', 'tagline': 'Digital Disposable Camera for Your Event', 'updatedAt': '2024-09-22T10:41:19-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '84', 'name': 'Events', 'slug': 'events', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '0c7b5e35-4cd7-4228-a671-871712dc6e12.x-icon', 'productState': 'default', '__typename': 'Post', 'featuredAt': '2024-09-21T00:01:00-07:00', 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 67}, '__typename': 'PostEdge'}, {'node': {'id': '491172', 'commentsCount': 2, 'name': 'BITCOIN RECOVERY- lostrecoverymasters', 'shortenedUrl': '/r/p/491172', 'slug': 'bitcoin-recovery-lostrecoverymasters', 'tagline': 'Cryptocurrency Security & Recovery Masters', 'updatedAt': '2024-09-22T05:18:52-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '57', 'name': 'Music', 'slug': 'music', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '7efa3e76-7fd7-4d38-aa74-2afeaf002255.jpeg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T21:21:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 3}, '__typename': 'PostEdge'}, {'node': {'id': '491127', 'commentsCount': 1, 'name': 'VirtuGO - Digital Business Cards', 'shortenedUrl': '/r/p/491127', 'slug': 'virtugo-digital-business-cards', 'tagline': 'Stunning digital business cards for Wordpress', 'updatedAt': '2024-09-22T05:19:04-07:00', 'pricingType': 'payment_required', 'topics': {'edges': [{'node': {'id': '135', 'name': 'Branding', 'slug': 'branding', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '9d90bee1-a4e5-400f-8f2a-84da03359d73.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T06:14:16-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}, {'node': {'id': '491084', 'commentsCount': 1, 'name': 'PHP Cost Estimation Form Builder', 'shortenedUrl': '/r/p/491084', 'slug': 'php-cost-estimation-form-builder', 'tagline': 'Create Dynamic, Accurate Cost Estimation Forms in Minutes', 'updatedAt': '2024-09-22T05:19:03-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '164', 'name': 'Marketing', 'slug': 'marketing', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '1e9588a2-74fd-46f0-a0d7-f04ceef7258b.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}, {'node': {'id': '491081', 'commentsCount': 6, 'name': 'Two Cents', 'shortenedUrl': '/r/p/491081', 'slug': 'two-cents-3', 'tagline': 'No sign-up, free directory for all SaaS makers.', 'updatedAt': '2024-09-22T05:20:01-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '164', 'name': 'Marketing', 'slug': 'marketing', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '8ef5a5cc-9f84-449a-99c6-d30004393565.svg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 15}, '__typename': 'PostEdge'}, {'node': {'id': '491079', 'commentsCount': 5, 'name': 'Wordpress Cost Estimation Form Builder', 'shortenedUrl': '/r/p/491079', 'slug': 'wordpress-cost-estimation-form-builder', 'tagline': 'Create complex cost estimation forms quickly and efficiently', 'updatedAt': '2024-09-22T05:19:51-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '242', 'name': 'WordPress', 'slug': 'wordpress', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '3d32ed49-2aab-451b-8b02-3d3176105d2d.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 11}, '__typename': 'PostEdge'}, {'node': {'id': '491078', 'commentsCount': 0, 'name': 'EazyBills', 'shortenedUrl': '/r/p/491078', 'slug': 'eazybills', 'tagline': 'E-Invoicing: Transform Your Business Operations', 'updatedAt': '2024-09-22T05:19:49-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '352', 'name': 'Tech', 'slug': 'tech', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '318f8084-4050-4cc6-83bf-d0f5a2d015ab.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 10}, '__typename': 'PostEdge'}, {'node': {'id': '491073', 'commentsCount': 3, 'name': 'AI MathGPT', 'shortenedUrl': '/r/p/491073', 'slug': 'ai-mathgpt', 'tagline': 'o1-powered AI: Step-by-step math guidance when you’re stuck!', 'updatedAt': '2024-09-22T05:19:48-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '46', 'name': 'Productivity', 'slug': 'productivity', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '235be5d9-5487-452a-a739-152fcfd45b0b.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 10}, '__typename': 'PostEdge'}, {'node': {'id': '491071', 'commentsCount': 2, 'name': 'AI 10K Commission Bots', 'shortenedUrl': '/r/p/491071', 'slug': 'ai-10k-commission-bots', 'tagline': ' Profit Generating System That Makes Us $2,000+ Per Month', 'updatedAt': '2024-09-22T05:19:02-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '71', 'name': 'Sales', 'slug': 'sales', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '3c3d2180-b044-45fd-bf40-92a547f630a0.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}, {'node': {'id': '491066', 'commentsCount': 7, 'name': 'NeckFit: Posture & Exercises', 'shortenedUrl': '/r/p/491066', 'slug': 'neckfit-posture-exercises', 'tagline': 'Correct forward head posture', 'updatedAt': '2024-09-22T05:20:06-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '2', 'name': 'Android', 'slug': 'android', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '759623dc-acc3-4636-84bd-31824bda92bd.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 27}, '__typename': 'PostEdge'}], 'pageInfo': {'endCursor': 'MjA', 'hasNextPage': True, '__typename': 'PageInfo'}, '__typename': 'PostConnection'}}}
+{'data': {'posts': {'edges': [{'node': {'id': '491064', 'commentsCount': 0, 'name': 'Raft', 'shortenedUrl': '/r/p/491064', 'slug': 'raft-1', 'tagline': 'Content Audit Tool', 'updatedAt': '2024-09-22T05:19:55-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '164', 'name': 'Marketing', 'slug': 'marketing', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '937349c8-aa0b-4f58-8ae5-932793a496e1.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 12}, '__typename': 'PostEdge'}, {'node': {'id': '491063', 'commentsCount': 3, 'name': 'EcoAI: Virtual AI Assistant', 'shortenedUrl': '/r/p/491063', 'slug': 'ecoai-virtual-ai-assistant', 'tagline': 'Premium AI Models, Zero Monthly Fees', 'updatedAt': '2024-09-22T05:19:39-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '2', 'name': 'Android', 'slug': 'android', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'ca505425-f0f1-4b6e-aff5-d208568077eb.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 9}, '__typename': 'PostEdge'}, {'node': {'id': '491061', 'commentsCount': 1, 'name': 'ChatGPT Bookmarklet to Decipher Web Text', 'shortenedUrl': '/r/p/491061', 'slug': 'chatgpt-bookmarklet-to-decipher-web-text', 'tagline': 'Demystify acronyms, industry terms, foreign phrases, etc.', 'updatedAt': '2024-09-22T05:19:13-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '90', 'name': 'Writing', 'slug': 'writing', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '96e543fa-0243-45b0-9d44-79b5f8c229ab.webp', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 6}, '__typename': 'PostEdge'}, {'node': {'id': '491060', 'commentsCount': 3, 'name': 'The Color Cove', 'shortenedUrl': '/r/p/491060', 'slug': 'the-color-cove', 'tagline': "1,000's of Free Printable Coloring Pages!", 'updatedAt': '2024-09-22T05:19:47-07:00', 'pricingType': None, 'topics': {'edges': [{'node': {'id': '157', 'name': 'Kids', 'slug': 'kids', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '9045ab47-8de7-4d6e-aec6-163947402670.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 10}, '__typename': 'PostEdge'}, {'node': {'id': '491059', 'commentsCount': 30, 'name': 'PACA Web Automation', 'shortenedUrl': '/r/p/491059', 'slug': 'paca-web-automation', 'tagline': 'One-click web data scraping and workflow automation', 'updatedAt': '2024-09-22T12:13:50-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '34', 'name': 'Chrome Extensions', 'slug': 'chrome-extensions', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'f1a77340-3e34-47c0-8932-151f6e541169.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 253}, '__typename': 'PostEdge'}, {'node': {'id': '491056', 'commentsCount': 5, 'name': 'PodcastAI.cc', 'shortenedUrl': '/r/p/491056', 'slug': 'podcastai-cc', 'tagline': 'Text-to-podcast in 45+ languages', 'updatedAt': '2024-09-22T05:19:51-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '104', 'name': 'Social Media', 'slug': 'social-media', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '48e9b09b-7604-4869-8a38-a09f7b1a35a1.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 11}, '__typename': 'PostEdge'}, {'node': {'id': '491054', 'commentsCount': 0, 'name': 'ClipType', 'shortenedUrl': '/r/p/491054', 'slug': 'cliptype', 'tagline': 'bypass anti-paste blocks with ease', 'updatedAt': '2024-09-22T05:19:38-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '34', 'name': 'Chrome Extensions', 'slug': 'chrome-extensions', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '06f040d8-f232-4911-8015-a8eef59b91af.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 9}, '__typename': 'PostEdge'}, {'node': {'id': '491053', 'commentsCount': 3, 'name': 'Vultax', 'shortenedUrl': '/r/p/491053', 'slug': 'vultax', 'tagline': 'Crypto Arbitrage & Whale Alerts', 'updatedAt': '2024-09-22T05:19:37-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '203', 'name': 'Investing', 'slug': 'investing', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'ead78f50-57d7-4b55-a1fd-084303eae832.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 9}, '__typename': 'PostEdge'}, {'node': {'id': '491052', 'commentsCount': 1, 'name': 'Weekly Runs', 'shortenedUrl': '/r/p/491052', 'slug': 'weekly-runs-4', 'tagline': 'A Simple Planner for Busy Runners.', 'updatedAt': '2024-09-22T05:19:54-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '2', 'name': 'Android', 'slug': 'android', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'b4ba86af-6b58-4c99-8528-6c210be97007.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 12}, '__typename': 'PostEdge'}, {'node': {'id': '491050', 'commentsCount': 2, 'name': 'Black Owl Systems', 'shortenedUrl': '/r/p/491050', 'slug': 'black-owl-systems-2', 'tagline': 'Lease Accounting Software', 'updatedAt': '2024-09-22T05:19:01-07:00', 'pricingType': None, 'topics': {'edges': [{'node': {'id': '94', 'name': 'Fintech', 'slug': 'fintech', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '9561cbf3-c8ee-4dd2-ba95-ed518b95c820.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}, {'node': {'id': '491049', 'commentsCount': 0, 'name': 'Aumigo!', 'shortenedUrl': '/r/p/491049', 'slug': 'aumigo', 'tagline': 'Pet Routine App', 'updatedAt': '2024-09-22T05:19:01-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '48', 'name': 'Task Management', 'slug': 'task-management', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '88c1acd2-3fdc-4606-a55e-8ecb44d74eee.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}, {'node': {'id': '491046', 'commentsCount': 2, 'name': 'Easy English Vocabulary', 'shortenedUrl': '/r/p/491046', 'slug': 'easy-english-vocabulary', 'tagline': 'Master English with AI-powered vocab cards and insights', 'updatedAt': '2024-09-22T05:19:46-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '8', 'name': 'iOS', 'slug': 'ios', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'b9e09158-e470-4b77-91c3-78825a01aaac.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 10}, '__typename': 'PostEdge'}, {'node': {'id': '491043', 'commentsCount': 0, 'name': 'Lost Trail', 'shortenedUrl': '/r/p/491043', 'slug': 'lost-trail', 'tagline': 'A hiking app that allows creating and recording hikes', 'updatedAt': '2024-09-22T05:19:46-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '8', 'name': 'iOS', 'slug': 'ios', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '64a121c2-8172-480a-83e8-38613ab13876.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 10}, '__typename': 'PostEdge'}, {'node': {'id': '491042', 'commentsCount': 5, 'name': 'Shortd.io', 'shortenedUrl': '/r/p/491042', 'slug': 'shortd-io', 'tagline': 'Shortd: Turn Notes to Shorts, Study Smarter, Focus Longer', 'updatedAt': '2024-09-22T14:14:47-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '204', 'name': 'Education', 'slug': 'education', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'b3c72aed-fbfe-42a5-9014-097b1c541422.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 9}, '__typename': 'PostEdge'}, {'node': {'id': '491038', 'commentsCount': 1, 'name': 'Double vision', 'shortenedUrl': '/r/p/491038', 'slug': 'double-vision-2', 'tagline': 'Two looks one vision', 'updatedAt': '2024-09-22T05:19:32-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '44', 'name': 'Design Tools', 'slug': 'design-tools', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '41082773-9c25-42eb-9b06-f11cfb74621e.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 8}, '__typename': 'PostEdge'}, {'node': {'id': '491037', 'commentsCount': 2, 'name': 'Temporary Email Address generator', 'shortenedUrl': '/r/p/491037', 'slug': 'temporary-email-address-generator', 'tagline': 'Temporary Email Address generator', 'updatedAt': '2024-09-22T05:19:30-07:00', 'pricingType': None, 'topics': {'edges': [{'node': {'id': '2', 'name': 'Android', 'slug': 'android', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '0575fc7f-f8f1-4bed-bcc9-b276a4c1e157.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 8}, '__typename': 'PostEdge'}, {'node': {'id': '491031', 'commentsCount': 4, 'name': 'Holy Books AI', 'shortenedUrl': '/r/p/491031', 'slug': 'holy-books-ai', 'tagline': 'Real-time AI answers from Quran, Bible, and Torah', 'updatedAt': '2024-09-22T05:19:44-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '46', 'name': 'Productivity', 'slug': 'productivity', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'cab6fe07-461f-4415-9370-4284b1f3f6c3.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 10}, '__typename': 'PostEdge'}, {'node': {'id': '491028', 'commentsCount': 0, 'name': 'linkedIn_auto_jobs_applier_with_AI', 'shortenedUrl': '/r/p/491028', 'slug': 'linkedin_auto_jobs_applier_with_ai', 'tagline': 'Free tool that automates the jobs apply process using AI', 'updatedAt': '2024-09-22T05:19:13-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '41', 'name': 'Hiring', 'slug': 'hiring', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'e29a396e-dbd2-490f-8063-bcb2529f5666.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 6}, '__typename': 'PostEdge'}, {'node': {'id': '491026', 'commentsCount': 5, 'name': 'Health AI', 'shortenedUrl': '/r/p/491026', 'slug': 'health-ai', 'tagline': 'Empower Your Health Journey With AI-Driven Insights.', 'updatedAt': '2024-09-22T05:20:01-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '43', 'name': 'Health & Fitness', 'slug': 'health-fitness', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '1fb0d7e5-edb4-4f37-bdc9-16e117625605.jpeg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 13}, '__typename': 'PostEdge'}, {'node': {'id': '491024', 'commentsCount': 1, 'name': 'ExamQuest', 'shortenedUrl': '/r/p/491024', 'slug': 'examquest', 'tagline': 'Your Competitive Exam Companion', 'updatedAt': '2024-09-22T05:19:29-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '204', 'name': 'Education', 'slug': 'education', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'dadd1ee1-560b-415a-a6ea-0e184cd548fe.x-icon', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 8}, '__typename': 'PostEdge'}], 'pageInfo': {'endCursor': 'NDA', 'hasNextPage': True, '__typename': 'PageInfo'}, '__typename': 'PostConnection'}}}
+{'data': {'posts': {'edges': [{'node': {'id': '491020', 'commentsCount': 12, 'name': 'Flux Image Generator', 'shortenedUrl': '/r/p/491020', 'slug': 'flux-image-generator-1', 'tagline': 'Generate flux AI images with 0 BS ads. Clone & customize!', 'updatedAt': '2024-09-22T10:41:42-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '268', 'name': 'Artificial Intelligence', 'slug': 'artificial-intelligence', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'e4d5a407-61e3-4780-8dc3-0211a67d1776.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 29}, '__typename': 'PostEdge'}, {'node': {'id': '491019', 'commentsCount': 0, 'name': 'Wayspronew', 'shortenedUrl': '/r/p/491019', 'slug': 'wayspronew', 'tagline': 'Digital Marketing Services in USA, Grow Online', 'updatedAt': '2024-09-22T05:19:21-07:00', 'pricingType': 'payment_required', 'topics': {'edges': [{'node': {'id': '164', 'name': 'Marketing', 'slug': 'marketing', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'e0f5bdcd-ccc6-41f1-8c2d-c6151a7d6ebe.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 7}, '__typename': 'PostEdge'}, {'node': {'id': '491016', 'commentsCount': 3, 'name': 'ScoutDecision for Scouts', 'shortenedUrl': '/r/p/491016', 'slug': 'scoutdecision-for-scouts', 'tagline': 'Software for Football Scouting & Player Database', 'updatedAt': '2024-09-22T05:19:50-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '111', 'name': 'Sports', 'slug': 'sports', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'caf33005-ba72-4b5b-af51-920df319c189.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 11}, '__typename': 'PostEdge'}, {'node': {'id': '491012', 'commentsCount': 1, 'name': 'The Pro Producto (TPP)', 'shortenedUrl': '/r/p/491012', 'slug': 'the-pro-producto-tpp', 'tagline': 'Newsletter para hacedores de Producto', 'updatedAt': '2024-09-22T05:19:37-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '85', 'name': 'Newsletters', 'slug': 'newsletters', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'ed94ebc7-7f74-4666-a1ef-89c4604bf329.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 9}, '__typename': 'PostEdge'}, {'node': {'id': '491006', 'commentsCount': 0, 'name': 'Luma Dream Machine API', 'shortenedUrl': '/r/p/491006', 'slug': 'luma-dream-machine-api', 'tagline': 'Creative Intelligence platform for magical AI products', 'updatedAt': '2024-09-22T05:19:20-07:00', 'pricingType': 'payment_required', 'topics': {'edges': [{'node': {'id': '268', 'name': 'Artificial Intelligence', 'slug': 'artificial-intelligence', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '35941e2f-cd4f-4a00-83d0-842e0b78a764.svg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 7}, '__typename': 'PostEdge'}, {'node': {'id': '491002', 'commentsCount': 0, 'name': 'The Programming Language Lua', 'shortenedUrl': '/r/p/491002', 'slug': 'the-programming-language-lua', 'tagline': 'Lua is a powerful, efficient, lightweight, script language.', 'updatedAt': '2024-09-22T05:19:54-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '89', 'name': 'Open Source', 'slug': 'open-source', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '1c11fc7b-1e5b-4b8d-be11-10ad68a50429.jpeg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 12}, '__typename': 'PostEdge'}, {'node': {'id': '491001', 'commentsCount': 1, 'name': 'ROuts', 'shortenedUrl': '/r/p/491001', 'slug': 'routs', 'tagline': 'Effortless, Secure socializing for Expats & New Movers', 'updatedAt': '2024-09-22T05:19:29-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '268', 'name': 'Artificial Intelligence', 'slug': 'artificial-intelligence', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '0f4611ab-908f-4706-ab7d-69f82f4e1ce7.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 8}, '__typename': 'PostEdge'}, {'node': {'id': '491000', 'commentsCount': 7, 'name': 'XBlockBot', 'shortenedUrl': '/r/p/491000', 'slug': 'xblockbot', 'tagline': 'Clean Up Your Twitter Followers', 'updatedAt': '2024-09-22T05:20:09-07:00', 'pricingType': 'payment_required', 'topics': {'edges': [{'node': {'id': '34', 'name': 'Chrome Extensions', 'slug': 'chrome-extensions', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'ff65f3bc-c522-4251-a843-b436f70878aa.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 30}, '__typename': 'PostEdge'}, {'node': {'id': '490989', 'commentsCount': 2, 'name': 'Mokita', 'shortenedUrl': '/r/p/490989', 'slug': 'mokita-2', 'tagline': 'Discover how other people see you', 'updatedAt': '2024-09-22T05:19:19-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '43', 'name': 'Health & Fitness', 'slug': 'health-fitness', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '9546311d-2197-4be2-ba02-7d689e5a8c4f.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 7}, '__typename': 'PostEdge'}, {'node': {'id': '490987', 'commentsCount': 2, 'name': 'The Fastest Generator:AI-HeadShot.online', 'shortenedUrl': '/r/p/490987', 'slug': 'the-fastest-generator-ai-headshot-online', 'tagline': 'AI HeadShot Online 📸 The Fastest HeadShots Generator', 'updatedAt': '2024-09-22T05:19:36-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '104', 'name': 'Social Media', 'slug': 'social-media', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '59bebe3b-86a3-494c-b279-8588ad341aa8.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 9}, '__typename': 'PostEdge'}, {'node': {'id': '490986', 'commentsCount': 4, 'name': 'PuLID for FLUX', 'shortenedUrl': '/r/p/490986', 'slug': 'pulid-for-flux', 'tagline': 'PuLID for FLUX Free Online', 'updatedAt': '2024-09-22T05:19:43-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '44', 'name': 'Design Tools', 'slug': 'design-tools', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'c807cbaf-a50d-4069-9d6e-86bf50e13a49.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 10}, '__typename': 'PostEdge'}, {'node': {'id': '490984', 'commentsCount': 4, 'name': 'PrograSEO', 'shortenedUrl': '/r/p/490984', 'slug': 'prograseo', 'tagline': 'Programmatically Dominate SEO', 'updatedAt': '2024-09-22T05:19:57-07:00', 'pricingType': 'payment_required', 'topics': {'edges': [{'node': {'id': '164', 'name': 'Marketing', 'slug': 'marketing', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'eec56767-c6f5-473e-9e8b-786c76205d4b.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 13}, '__typename': 'PostEdge'}, {'node': {'id': '490983', 'commentsCount': 6, 'name': 'GrudgeBook', 'shortenedUrl': '/r/p/490983', 'slug': 'grudgebook', 'tagline': 'Track Your Conflicts, Gain Clarity', 'updatedAt': '2024-09-22T05:19:57-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '96', 'name': 'Notes', 'slug': 'notes', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '9368d8cd-2a6f-42c2-8538-a4bb4a2b1f99.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 13}, '__typename': 'PostEdge'}, {'node': {'id': '490982', 'commentsCount': 4, 'name': 'Learn Catalan', 'shortenedUrl': '/r/p/490982', 'slug': 'learn-catalan', 'tagline': 'Chrome Web Store, Free Language Tool, Education', 'updatedAt': '2024-09-22T05:19:35-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '34', 'name': 'Chrome Extensions', 'slug': 'chrome-extensions', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'bfafb1d3-893c-4fbd-acb2-1532a081a14a.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 9}, '__typename': 'PostEdge'}, {'node': {'id': '490980', 'commentsCount': 2, 'name': 'TraxMojo', 'shortenedUrl': '/r/p/490980', 'slug': 'traxmojo', 'tagline': 'The worlds music library at your fingertips', 'updatedAt': '2024-09-22T05:19:28-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '57', 'name': 'Music', 'slug': 'music', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '8fc08f35-dfd8-44c6-808e-bad7320bcb9b.jpeg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 8}, '__typename': 'PostEdge'}, {'node': {'id': '490978', 'commentsCount': 0, 'name': 'Coro', 'shortenedUrl': '/r/p/490978', 'slug': 'coro-2', 'tagline': 'Chrome Web Store', 'updatedAt': '2024-09-22T05:19:11-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '34', 'name': 'Chrome Extensions', 'slug': 'chrome-extensions', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '0df38d74-5243-4183-9aec-45b12316dc10.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 6}, '__typename': 'PostEdge'}, {'node': {'id': '490976', 'commentsCount': 1, 'name': 'Content Machine', 'shortenedUrl': '/r/p/490976', 'slug': 'content-machine-2', 'tagline': 'Content Planner to help you become the top 1% Creator', 'updatedAt': '2024-09-22T05:19:34-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '46', 'name': 'Productivity', 'slug': 'productivity', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'db5dd743-fc56-4bf7-b44b-6d377db25c7a.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 9}, '__typename': 'PostEdge'}, {'node': {'id': '490970', 'commentsCount': 5, 'name': 'Tradience', 'shortenedUrl': '/r/p/490970', 'slug': 'tradience-2', 'tagline': 'AI-powered trading news & free PineScript strategy generator', 'updatedAt': '2024-09-22T05:35:51-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '50', 'name': 'News', 'slug': 'news', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '86980c4b-7cd9-42cb-88a6-0593e5f66f1b.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 8}, '__typename': 'PostEdge'}, {'node': {'id': '490966', 'commentsCount': 1, 'name': 'Atlassian ACP-610 Online Practice Test', 'shortenedUrl': '/r/p/490966', 'slug': 'atlassian-acp-610-online-practice-test', 'tagline': 'CertFun | We Make Your Certification Easy', 'updatedAt': '2024-09-22T05:19:00-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '204', 'name': 'Education', 'slug': 'education', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '0aaa2229-fc81-4cdf-936d-ec45b80571aa.jpeg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}, {'node': {'id': '490961', 'commentsCount': 0, 'name': 'Softaken PST to MBOX Converter', 'shortenedUrl': '/r/p/490961', 'slug': 'softaken-pst-to-mbox-converter', 'tagline': 'Transfer Outlook PST Files to MBOX mailbox', 'updatedAt': '2024-09-22T05:18:59-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '18', 'name': 'Windows', 'slug': 'windows', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '6a5ea4f7-cb7e-433f-b88c-8bd8ab2e2378.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}], 'pageInfo': {'endCursor': 'NjA', 'hasNextPage': True, '__typename': 'PageInfo'}, '__typename': 'PostConnection'}}}
+{'data': {'posts': {'edges': [{'node': {'id': '490960', 'commentsCount': 4, 'name': 'Gamified Habit Tracker', 'shortenedUrl': '/r/p/490960', 'slug': 'gamified-habit-tracker', 'tagline': 'Have Fun and cute digital Pets while you build habits', 'updatedAt': '2024-09-22T05:19:59-07:00', 'pricingType': 'payment_required', 'topics': {'edges': [{'node': {'id': '44', 'name': 'Design Tools', 'slug': 'design-tools', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '15d6e11e-4f4e-4b5c-8b30-05a37770be02.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 14}, '__typename': 'PostEdge'}, {'node': {'id': '490958', 'commentsCount': 0, 'name': 'Taxi App Development - SpotnRides', 'shortenedUrl': '/r/p/490958', 'slug': 'taxi-app-development-spotnrides', 'tagline': 'Uber For Taxi Booking and Rental App Development', 'updatedAt': '2024-09-22T05:19:10-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '247', 'name': 'Software Engineering', 'slug': 'software-engineering', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '4c80886a-6c20-4f29-a19d-b7f48154a0c5.jpeg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 6}, '__typename': 'PostEdge'}, {'node': {'id': '490957', 'commentsCount': 3, 'name': 'CAPTCHAs.IO', 'shortenedUrl': '/r/p/490957', 'slug': 'captchas-io', 'tagline': 'CAPTCHA Solver and Bypass API Web Service', 'updatedAt': '2024-09-22T05:19:33-07:00', 'pricingType': 'payment_required', 'topics': {'edges': [{'node': {'id': '88', 'name': 'API', 'slug': 'api-1', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '06f76035-3825-4264-a118-1564d973a9ef.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 9}, '__typename': 'PostEdge'}, {'node': {'id': '490948', 'commentsCount': 0, 'name': 'New Launch in Sector 69', 'shortenedUrl': '/r/p/490948', 'slug': 'new-launch-in-sector-69', 'tagline': 'Smartworld Sky Arc Gurgaon', 'updatedAt': '2024-09-22T05:19:17-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '104', 'name': 'Social Media', 'slug': 'social-media', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '80b1e06a-51fe-46ab-85eb-1f7589da3909.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 7}, '__typename': 'PostEdge'}, {'node': {'id': '490947', 'commentsCount': 0, 'name': 'Hamster Kombat Clone Script', 'shortenedUrl': '/r/p/490947', 'slug': 'hamster-kombat-clone-script', 'tagline': 'Leading Innovator in Hamster Kombat Clone Script Development', 'updatedAt': '2024-09-22T05:18:58-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '353', 'name': 'Games', 'slug': 'games', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'ec635594-883d-4616-a86f-a51cd4ff4a28.jpeg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}, {'node': {'id': '490946', 'commentsCount': 5, 'name': 'Recap', 'shortenedUrl': '/r/p/490946', 'slug': 'recap-0680ebac-86f8-4ca5-9aa1-1336deac3cee', 'tagline': 'Remember more and retain what matters.', 'updatedAt': '2024-09-22T05:20:01-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '21', 'name': 'Web App', 'slug': 'web-app', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '0b0bbb5a-a78c-49d3-80fc-baff70588092.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 18}, '__typename': 'PostEdge'}, {'node': {'id': '490944', 'commentsCount': 0, 'name': 'Hentai Pics', 'shortenedUrl': '/r/p/490944', 'slug': 'hentai-pics-2', 'tagline': 'endless hentai image gallery', 'updatedAt': '2024-09-22T05:19:10-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '76', 'name': 'Art', 'slug': 'art', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '9e386cdf-36ff-42cf-a8c3-0139cad756fb.vnd.microsoft.icon', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 6}, '__typename': 'PostEdge'}, {'node': {'id': '490934', 'commentsCount': 7, 'name': 'eBay Sold History Button', 'shortenedUrl': '/r/p/490934', 'slug': 'ebay-sold-history-button', 'tagline': 'See Item Purchase History', 'updatedAt': '2024-09-22T05:20:05-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '34', 'name': 'Chrome Extensions', 'slug': 'chrome-extensions', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '72406ca1-a64e-4536-b06b-ad4fa996a714.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 20}, '__typename': 'PostEdge'}, {'node': {'id': '490932', 'commentsCount': 45, 'name': 'Truecoin', 'shortenedUrl': '/r/p/490932', 'slug': 'truecoin', 'tagline': 'Play and Earn - Buy, Sell, and Craft NFTs - Web3 Gaming', 'updatedAt': '2024-09-22T13:15:57-07:00', 'pricingType': None, 'topics': {'edges': [{'node': {'id': '29', 'name': 'Telegram', 'slug': 'telegram', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'fa7c94d7-658e-431f-82c2-859eee421bdb.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 88}, '__typename': 'PostEdge'}, {'node': {'id': '490931', 'commentsCount': 2, 'name': 'Metal Detector with Sound ', 'shortenedUrl': '/r/p/490931', 'slug': 'metal-detector-with-sound', 'tagline': 'Detect All kind of metal objects with your phone', 'updatedAt': '2024-09-22T05:18:54-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '2', 'name': 'Android', 'slug': 'android', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'eaab3955-cd19-42dd-83a5-164ae8827b20.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 4}, '__typename': 'PostEdge'}, {'node': {'id': '490930', 'commentsCount': 3, 'name': 'TunesFun YouTube Music Converter', 'shortenedUrl': '/r/p/490930', 'slug': 'tunesfun-youtube-music-converter', 'tagline': 'Download & Convert YouTube Music to MP3', 'updatedAt': '2024-09-22T05:19:16-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '57', 'name': 'Music', 'slug': 'music', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'cd9a6d7e-0959-4975-aa55-9e111329d2e9.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 7}, '__typename': 'PostEdge'}, {'node': {'id': '490929', 'commentsCount': 2, 'name': 'QuickReach', 'shortenedUrl': '/r/p/490929', 'slug': 'quickreach', 'tagline': 'Chrome Web Store', 'updatedAt': '2024-09-22T05:18:58-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '34', 'name': 'Chrome Extensions', 'slug': 'chrome-extensions', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '3467925c-7bde-481d-a4e8-4fb29a799f93.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}, {'node': {'id': '490928', 'commentsCount': 2, 'name': 'TunesFun Audible Converter', 'shortenedUrl': '/r/p/490928', 'slug': 'tunesfun-audible-converter', 'tagline': 'Download & Convert Audible AA/AAX books to DRM-free MP3', 'updatedAt': '2024-09-22T05:18:57-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '354', 'name': 'Books', 'slug': 'books', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'c7c4212b-acfb-457f-a5ad-e6b70b3b1d16.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}, {'node': {'id': '490923', 'commentsCount': 2, 'name': 'edge-tts-gui', 'shortenedUrl': '/r/p/490923', 'slug': 'edge-tts-gui', 'tagline': 'johnsmith2078/edge-tts-gui: 用Qt编写的简单微软Edge文本转语音GUI', 'updatedAt': '2024-09-22T05:19:08-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '93', 'name': 'User Experience', 'slug': 'user-experience', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '6db9dd2b-4e32-4f75-b29d-c4c02a67451c.svg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 6}, '__typename': 'PostEdge'}, {'node': {'id': '490922', 'commentsCount': 3, 'name': 'All guitar chords', 'shortenedUrl': '/r/p/490922', 'slug': 'all-guitar-chords', 'tagline': 'All the tools to learn guitar', 'updatedAt': '2024-09-22T05:19:17-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '57', 'name': 'Music', 'slug': 'music', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'af6dd5e7-9786-482c-859f-13cb736b1750.jpeg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 7}, '__typename': 'PostEdge'}, {'node': {'id': '490921', 'commentsCount': 2, 'name': 'Graphic & Web Design Ajency', 'shortenedUrl': '/r/p/490921', 'slug': 'graphic-web-design-ajency', 'tagline': 'Designing Your Vision, Crafting Your Success', 'updatedAt': '2024-09-22T05:19:26-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '243', 'name': 'Website Builder', 'slug': 'website-builder', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '4db95aae-73a6-416e-9c4d-57284e384a6d.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 8}, '__typename': 'PostEdge'}, {'node': {'id': '490920', 'commentsCount': 5, 'name': 'yutu', 'shortenedUrl': '/r/p/490920', 'slug': 'yutu', 'tagline': 'build a fully automated YouTube Channel!', 'updatedAt': '2024-09-22T05:20:00-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '89', 'name': 'Open Source', 'slug': 'open-source', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '6ce46be1-679b-4a78-8cfe-d79897616b64.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 15}, '__typename': 'PostEdge'}, {'node': {'id': '490919', 'commentsCount': 1, 'name': 'NuxtGain', 'shortenedUrl': '/r/p/490919', 'slug': 'nuxtgain', 'tagline': 'Nuxt3 + Supabase; Production ready SaaS boilerplate', 'updatedAt': '2024-09-22T05:19:25-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '89', 'name': 'Open Source', 'slug': 'open-source', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'c74af46a-a233-4954-8de1-480421db5a86.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 8}, '__typename': 'PostEdge'}, {'node': {'id': '490917', 'commentsCount': 0, 'name': 'Anime Pics', 'shortenedUrl': '/r/p/490917', 'slug': 'anime-pics-2', 'tagline': 'endless anime image gallery', 'updatedAt': '2024-09-22T05:19:15-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '76', 'name': 'Art', 'slug': 'art', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '8c7e14be-82cb-482a-bdbe-8eba64817f90.vnd.microsoft.icon', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 7}, '__typename': 'PostEdge'}, {'node': {'id': '490910', 'commentsCount': 1, 'name': 'View Image Properties', 'shortenedUrl': '/r/p/490910', 'slug': 'view-image-properties', 'tagline': 'Chrome Extension', 'updatedAt': '2024-09-22T05:19:24-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '34', 'name': 'Chrome Extensions', 'slug': 'chrome-extensions', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '8a088e1d-c5f7-40f6-a65c-f0fbc1addb76.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 8}, '__typename': 'PostEdge'}], 'pageInfo': {'endCursor': 'ODA', 'hasNextPage': True, '__typename': 'PageInfo'}, '__typename': 'PostConnection'}}}
+{'data': {'posts': {'edges': [{'node': {'id': '490901', 'commentsCount': 7, 'name': 'Happitimes', 'shortenedUrl': '/r/p/490901', 'slug': 'happitimes', 'tagline': 'Celebrate every moment and share it with your loved ones!', 'updatedAt': '2024-09-22T05:19:56-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '46', 'name': 'Productivity', 'slug': 'productivity', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '85be69d1-f8de-4c47-9595-0c963902c2aa.jpeg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 13}, '__typename': 'PostEdge'}, {'node': {'id': '490730', 'commentsCount': 8, 'name': 'LeedGen', 'shortenedUrl': '/r/p/490730', 'slug': 'leedgen', 'tagline': 'Your Automated Path to Qualified Leads', 'updatedAt': '2024-09-22T05:20:04-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '71', 'name': 'Sales', 'slug': 'sales', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'b1b4a1ef-7197-4c46-9e41-8878fce4d2ec.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 24}, '__typename': 'PostEdge'}, {'node': {'id': '490384', 'commentsCount': 1, 'name': 'Multiple Face Swap Video', 'shortenedUrl': '/r/p/490384', 'slug': 'multiple-face-swap-video', 'tagline': 'Easily swap multiple faces in your videos with AI', 'updatedAt': '2024-09-22T05:19:32-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '268', 'name': 'Artificial Intelligence', 'slug': 'artificial-intelligence', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '99f487d3-1b56-4846-85db-e14b84e42b0f.x-icon', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 9}, '__typename': 'PostEdge'}, {'node': {'id': '490376', 'commentsCount': 2, 'name': 'Fixed Closed Eyes In Photos', 'shortenedUrl': '/r/p/490376', 'slug': 'fixed-closed-eyes-in-photos', 'tagline': 'Easily open closed eyes in photos using AI technology', 'updatedAt': '2024-09-22T05:19:08-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '251', 'name': 'Photography', 'slug': 'photography', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '56ef2743-9396-4cdf-baeb-2bff7c9b7d50.x-icon', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 6}, '__typename': 'PostEdge'}, {'node': {'id': '489674', 'commentsCount': 3, 'name': 'Crypto exchange script', 'shortenedUrl': '/r/p/489674', 'slug': 'crypto-exchange-script', 'tagline': 'Your Own P2P Crypto Exchange Solution', 'updatedAt': '2024-09-22T05:19:07-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '212', 'name': 'Crypto', 'slug': 'crypto', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '56ef138a-263a-4abb-bfc1-f8d4ab7fb94e.jpeg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 6}, '__typename': 'PostEdge'}, {'node': {'id': '489450', 'commentsCount': 1, 'name': 'EphemeralAI', 'shortenedUrl': '/r/p/489450', 'slug': 'ephemeralai', 'tagline': 'Quick and easy way to get started developing with AI', 'updatedAt': '2024-09-22T05:19:14-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '88', 'name': 'API', 'slug': 'api-1', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '707c0e6d-018a-4f10-93fe-c811d633934f.x-icon', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 7}, '__typename': 'PostEdge'}, {'node': {'id': '489207', 'commentsCount': 5, 'name': 'Auto Scroll and Find - Safari Extension', 'shortenedUrl': '/r/p/489207', 'slug': 'auto-scroll-and-find-safari-extension', 'tagline': 'Search for text on pages that load content continuously', 'updatedAt': '2024-09-22T05:19:40-07:00', 'pricingType': 'payment_required', 'topics': {'edges': [{'node': {'id': '15', 'name': 'Safari Extensions', 'slug': 'safari-extensions', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '28eefa91-80c8-4097-8022-63f733d660f8.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 10}, '__typename': 'PostEdge'}, {'node': {'id': '489171', 'commentsCount': 2, 'name': 'Unlearn Stress', 'shortenedUrl': '/r/p/489171', 'slug': 'unlearn-stress', 'tagline': 'Self Care with Meditation & Storytelling', 'updatedAt': '2024-09-22T13:40:00-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '2', 'name': 'Android', 'slug': 'android', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '32108a43-9c0d-4cf2-b529-fda5ab0f1e56.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 114}, '__typename': 'PostEdge'}, {'node': {'id': '488597', 'commentsCount': 2, 'name': 'InvoCraft', 'shortenedUrl': '/r/p/488597', 'slug': 'invocraft', 'tagline': 'Your Business, Your Way. Simplified.', 'updatedAt': '2024-09-22T05:19:06-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '44', 'name': 'Design Tools', 'slug': 'design-tools', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '625cc67e-4211-41a9-b063-3147a2414c9c.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 6}, '__typename': 'PostEdge'}, {'node': {'id': '488504', 'commentsCount': 0, 'name': 'MOCKUP FREEBIES', 'shortenedUrl': '/r/p/488504', 'slug': 'mockup-freebies', 'tagline': "It's on the house", 'updatedAt': '2024-09-22T05:19:05-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '44', 'name': 'Design Tools', 'slug': 'design-tools', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'c6300eb5-1789-4aa7-98e2-c6cef8ad9ebb.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 6}, '__typename': 'PostEdge'}, {'node': {'id': '486987', 'commentsCount': 3, 'name': 'Recurring Out Of Office', 'shortenedUrl': '/r/p/486987', 'slug': 'recurring-out-of-office', 'tagline': 'A free Gmail add-on that helps you manage your recuring OOO!', 'updatedAt': '2024-09-22T08:24:55-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '39', 'name': 'Email', 'slug': 'email', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'c47ec735-9b6c-46d3-92b3-43fb1bacf49f.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}, {'node': {'id': '485236', 'commentsCount': 1, 'name': 'Locomotive', 'shortenedUrl': '/r/p/485236', 'slug': 'locomotive', 'tagline': 'Ruby on Rails boilerplate to ship faster', 'updatedAt': '2024-09-22T05:19:23-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '46', 'name': 'Productivity', 'slug': 'productivity', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '5a32870a-e87b-4880-a9cb-9bb17f4298fc.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 8}, '__typename': 'PostEdge'}, {'node': {'id': '484564', 'commentsCount': 4, 'name': 'CSS animator', 'shortenedUrl': '/r/p/484564', 'slug': 'css-animator', 'tagline': 'CSS animation framework', 'updatedAt': '2024-09-22T05:19:53-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '44', 'name': 'Design Tools', 'slug': 'design-tools', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '8b9f44ca-7d98-497b-be0e-cb8afd627cd3.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 12}, '__typename': 'PostEdge'}, {'node': {'id': '482807', 'commentsCount': 2, 'name': 'MiraBOT', 'shortenedUrl': '/r/p/482807', 'slug': 'mirabot', 'tagline': 'Master your data', 'updatedAt': '2024-09-22T05:18:54-07:00', 'pricingType': 'free', 'topics': {'edges': [{'node': {'id': '46', 'name': 'Productivity', 'slug': 'productivity', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '57f672ec-a80a-40ff-bfb1-28d5b66b5419.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 5}, '__typename': 'PostEdge'}, {'node': {'id': '482771', 'commentsCount': 3, 'name': 'TapEase', 'shortenedUrl': '/r/p/482771', 'slug': 'tapease', 'tagline': 'Your second payment channel.', 'updatedAt': '2024-09-22T05:19:32-07:00', 'pricingType': 'payment_required', 'topics': {'edges': [{'node': {'id': '94', 'name': 'Fintech', 'slug': 'fintech', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '67d8025b-e28a-4e29-b0c0-46e01a7fb5ed.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:00:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 9}, '__typename': 'PostEdge'}, {'node': {'id': '482745', 'commentsCount': 0, 'name': 'GhostContent', 'shortenedUrl': '/r/p/482745', 'slug': 'ghostcontent', 'tagline': 'Automate content creation & AI Writing', 'updatedAt': '2024-09-22T05:19:26-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '104', 'name': 'Social Media', 'slug': 'social-media', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '1479f118-6af3-466e-8386-e58a0e98c02e.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 8}, '__typename': 'PostEdge'}, {'node': {'id': '471420', 'commentsCount': 1, 'name': 'Threadnote', 'shortenedUrl': '/r/p/471420', 'slug': 'threadnote', 'tagline': 'Save jobs, find contacts, with reminders to stay accountable', 'updatedAt': '2024-09-22T05:19:20-07:00', 'pricingType': None, 'topics': {'edges': [{'node': {'id': '21', 'name': 'Web App', 'slug': 'web-app', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'c3fc6749-9a50-4168-beb2-54f84887c57c.svg', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 8}, '__typename': 'PostEdge'}, {'node': {'id': '470139', 'commentsCount': 1, 'name': 'Copilot for Tinder & Bumble', 'shortenedUrl': '/r/p/470139', 'slug': 'copilot-for-tinder-bumble', 'tagline': 'copilot for dating apps, grow yourself, not your dependency.', 'updatedAt': '2024-09-22T06:35:14-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '60', 'name': 'Messaging', 'slug': 'messaging', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': '9019a628-afc5-47be-9c95-e645403bc7e9.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 7}, '__typename': 'PostEdge'}, {'node': {'id': '445634', 'commentsCount': 8, 'name': 'Feedback Vote', 'shortenedUrl': '/r/p/445634', 'slug': 'feedback-vote', 'tagline': 'Let Twitch and YouTube subscribers vote on your next content', 'updatedAt': '2024-09-22T09:31:38-07:00', 'pricingType': 'free_options', 'topics': {'edges': [{'node': {'id': '46', 'name': 'Productivity', 'slug': 'productivity', '__typename': 'Topic'}, '__typename': 'TopicEdge'}], '__typename': 'TopicConnection'}, 'redirectToProduct': None, 'thumbnailImageUuid': 'ab121cfa-701e-4c24-8315-e23352b77f44.png', 'productState': 'default', '__typename': 'Post', 'featuredAt': None, 'createdAt': '2024-09-21T00:01:00-07:00', 'disabledWhenScheduled': True, 'hasVoted': False, 'votesCount': 20}, '__typename': 'PostEdge'}], 'pageInfo': {'endCursor': 'OTk', 'hasNextPage': False, '__typename': 'PageInfo'}, '__typename': 'PostConnection'}}}
+Time taken to run the script: 8.23976182937622 seconds
+Traceback (most recent call last):
+  File "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py", line 321, in <module>
+    new_data = fetch_last_10_days()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py", line 301, in fetch_last_10_days
+    data = response.json()["data"]
+           ~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+mercyolagunju@C02DDESCMD6M Sep 22 % /usr/local/bin/python3 "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py"
+2024-09-20
+2024-09-21
+Time taken to run the script: 4.925405979156494 seconds
+{'errors': [{'message': 'Variable $order of type PostsOrder was provided invalid value', 'locations': [{'line': 7, 'column': 2}], 'extensions': {'value': 'RANKING', 'problems': [{'path': [], 'explanation': 'Expected "RANKING" to be one of: DAILY_RANK, WEEKLY_RANK, MONTHLY_RANK, YEARLY_RANK, VOTES'}]}}]}
+Traceback (most recent call last):
+  File "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py", line 322, in <module>
+    new_data = fetch_last_10_days()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py", line 302, in fetch_last_10_days
+    data = response.json()["data"]
+           ~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'data'
+mercyolagunju@C02DDESCMD6M Sep 22 % /usr/local/bin/python3 "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py"
+doing this
+mercyolagunju@C02DDESCMD6M Sep 22 % /usr/local/bin/python3 "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py"
+  File "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py", line 267
+    "day": 01,
+           ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+mercyolagunju@C02DDESCMD6M Sep 22 % /usr/local/bin/python3 "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py"
+doing this
+2024-09-01
+2024-09-02
+2024-09-03
+2024-09-04
+2024-09-05
+2024-09-06
+2024-09-07
+2024-09-08
+2024-09-09
+2024-09-10
+2024-09-11
+2024-09-12
+2024-09-13
+2024-09-14
+2024-09-15
+2024-09-16
+2024-09-17
+2024-09-18
+2024-09-19
+2024-09-20
+2024-09-21
+Time taken to run the script: 57.95810675621033 seconds
+mercyolagunju@C02DDESCMD6M Sep 22 % /usr/local/bin/python3 "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py"
+doing this
+2024-09-01
+2024-09-02
+2024-09-03
+2024-09-04
+2024-09-05
+2024-09-06
+^CTraceback (most recent call last):
+  File "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py", line 264, in <module>
+    output_df = get_data(start_date = {
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py", line 167, in get_data
+    response = requests.post(endpoint, json=payload, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 1423, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1252, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py", line 1104, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
 
-#Basically something that lets play with some dataset that has the embeddings. 
-#Scaffolding to check if something's already in the database, and if it is if it's not. 
-
-#Make the excel sheet, and then when I'm updating confirm that I'm not
-
-
-def get_data(start_date, end_date):
-
-
-    start_time = time.time()
-    # Set the GraphQL endpoint and the headers
-    endpoint = "https://www.producthunt.com/frontend/graphql"
-    headers = {"Content-Type": "application/json"}
-
-    # Define the GraphQL query and variables
-    query = """
-    query ArchivePage(
-        $year: Int
-        $month: Int
-        $day: Int
-        $cursor: String
-        $order: PostsOrder
-    ) {
-        posts(
-            first: 200
-            year: $year
-            month: $month
-            day: $day
-            order: $order
-            after: $cursor
-        ) {
-            edges {
-                node {
-                    id
-                    ...PostItemList
-                    __typename
-                }
-                __typename
-            }
-            pageInfo {
-                endCursor
-                hasNextPage
-                __typename
-            }
-            __typename
-        }
-    }
-    fragment PostItemList on Post {
-        id
-        ...PostItem
-        __typename
-    }
-    fragment PostItem on Post {
-        id
-        commentsCount
-        name
-        shortenedUrl
-        slug
-        tagline
-        updatedAt
-        pricingType
-        topics(first: 1) {
-            edges {
-                node {
-                    id
-                    name
-                    slug
-                    __typename
-                }
-                __typename
-            }
-            __typename
-        }
-        redirectToProduct {
-            id
-            slug
-            __typename
-        }
-        ...PostThumbnail
-        ...PostVoteButton
-        __typename
-    }
-    fragment PostThumbnail on Post {
-        id
-        name
-        thumbnailImageUuid
-        ...PostStatusIcons
-        __typename
-    }
-    fragment PostStatusIcons on Post {
-        id
-        name
-        productState
-        __typename
-    }
-    fragment PostVoteButton on Post {
-        id
-        featuredAt
-        updatedAt
-        createdAt
-        disabledWhenScheduled
-        hasVoted
-        ... on Votable {
-            id
-            votesCount
-            __typename
-        }
-        __typename
-    }
-    """
-
-    variables = {
-        "year": 2022,
-        "month": 12,
-        "day": 13,
-        "order": "DAILY_RANK",
-        "cursor": None,
-    }
-
-    # Initialize an empty list to store the results
-    results = []
-
-
-
-
-    # get_date_range returns a list of dates between the start date and end date
-    def get_date_range(start_date, end_date):
-        from datetime import date, timedelta
-
-        start_date = date(start_date["year"], start_date["month"], start_date["day"])
-        end_date = date(end_date["year"], end_date["month"], end_date["day"])
-
-        delta = end_date - start_date
-
-        date_range = []
-        for i in range(delta.days + 1):
-            date_range.append(start_date + timedelta(days=i))
-
-        return date_range
-
-
-    for single_date in get_date_range(start_date, end_date):
-        # Set the cursor to None and the hasNextPage flag to True
-        cursor = None
-        hasNextPage = True
-
-        print(single_date.strftime("%Y-%m-%d"))
-        # Fetch the products in a loop, until there are no more pages
-        while hasNextPage:
-            # update the date
-            variables["year"] = single_date.year
-            variables["month"] = single_date.month
-            variables["day"] = single_date.day
-
-            # Update the cursor in the variables
-            variables["cursor"] = cursor
-
-            # Set the GraphQL request payload
-            payload = {"query": query, "variables": variables}
-
-            # Send the POST request to the endpoint
-            response = requests.post(endpoint, json=payload, headers=headers)
-
-            # Check the status code of the response
-            if response.status_code == 200:
-                # Get the data from the response
-                #print(response.json())
-                data = response.json()["data"]
-
-
-                # Extract the list of edges and pageInfo from the data
-                edges = data["posts"]["edges"]
-                pageInfo = data["posts"]["pageInfo"]
-
-                # Extract the cursor and hasNextPage flag from the pageInfo
-                cursor = pageInfo["endCursor"]
-                hasNextPage = pageInfo["hasNextPage"]
-
-                # Iterate over the edges and extract the node from each edge
-                for edge in edges:
-                    node = edge["node"]
-
-                    # Extract the relevant fields from the node
-                    id = node["id"]
-                    name = node["name"]
-                    slug = node["slug"]
-                    tagline = node["tagline"]
-                    shortenedUrl = node["shortenedUrl"]
-                    commentsCount = node["commentsCount"]
-                    updatedAt = node["updatedAt"]
-                    pricingType = node["pricingType"]
-
-                    # Extract the topic from the node, if it exists
-                    topic = (
-                        node["topics"]["edges"][0]["node"]
-                        if node["topics"]["edges"]
-                        else None
-                    )
-                    topic_id = topic["id"] if topic else None
-                    topic_name = topic["name"] if topic else None
-                    topic_slug = topic["slug"] if topic else None
-
-                    # Extract the redirectToProduct from the node, if it exists
-                    redirectToProduct = node["redirectToProduct"]
-                    redirectToProduct_id = (
-                        redirectToProduct["id"] if redirectToProduct else None
-                    )
-                    redirectToProduct_slug = (
-                        redirectToProduct["slug"] if redirectToProduct else None
-                    )
-
-                    # Extract complete info from PostVoteButton and PostThumbnail
-                    featuredAt = node["featuredAt"]
-                    createdAt = node["createdAt"]
-                    disabledWhenScheduled = node["disabledWhenScheduled"]
-                    votesCount = node["votesCount"]
-                    productState = node["productState"]
-                    thumbnailImageUuid = node["thumbnailImageUuid"]
-
-                    # Append the extracted fields to the results list
-                    results.append(
-                        {
-                            "id": id,
-                            "name": name,
-                            "slug": slug,
-                            "tagline": tagline,
-                            "shortenedUrl": shortenedUrl,
-                            "commentsCount": commentsCount,
-                            "createdAt": createdAt,
-                            "featuredAt": featuredAt,
-                            "updatedAt": updatedAt,
-                            "pricingType": pricingType,
-                            "topic_id": topic_id,
-                            "topic_name": topic_name,
-                            "topic_slug": topic_slug,
-                            "redirectToProduct_id": redirectToProduct_id,
-                            "redirectToProduct_slug": redirectToProduct_slug,
-                            "disabledWhenScheduled": disabledWhenScheduled,
-                            "votesCount": votesCount,
-                            "productState": productState,
-                            "thumbnailImageUuid": thumbnailImageUuid,
-                        }
-                    )
-
-
-    # Convert the results list to a Pandas DataFrame
-    df = pd.DataFrame(results)
-
-    # Write the DataFrame to a CSV file
-    df.to_csv("products.csv", index=False)
-
-    # end the timer
-    end_time = time.time()
-
-    # print the time taken to run the script
-    print(f"Time taken to run the script: {end_time - start_time} seconds")
+mercyolagunju@C02DDESCMD6M Sep 22 % /usr/local/bin/python3 "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py"
+doing this
+2024-09-11
+2024-09-12
+2024-09-13
+2024-09-14
+2024-09-15
+2024-09-16
+2024-09-17
+2024-09-18
+2024-09-19
+2024-09-20
+2024-09-21
+Time taken to run the script: 39.94250702857971 seconds
+Traceback (most recent call last):
+  File "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py", line 273, in <module>
+    output_df.to_csv("products.csv", index=False)
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'to_csv'
+mercyolagunju@C02DDESCMD6M Sep 22 % /usr/local/bin/python3 "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py"
+doing this
+2024-09-11
+2024-09-12
+2024-09-13
+2024-09-14
+2024-09-15
+2024-09-16
+2024-09-17
+2024-09-18
+2024-09-19
+2024-09-20
+2024-09-21
+Time taken to run the script: 36.78324365615845 seconds
+Traceback (most recent call last):
+  File "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py", line 264, in <module>
+    output_df = get_data(start_date = {
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py", line 262, in get_data
     return output_df
-print('doing this')
-output_df = get_data(start_date = {
-        "year": 2024,
-        "month": 9,
-        "day": 11,
-    }, end_date = {
-        "year": 2024,
-        "month": 9,
-        "day": 21,
-    })
-output_df.to_csv("products.csv", index=False)
+           ^^^^^^^^^
+NameError: name 'output_df' is not defined
+mercyolagunju@C02DDESCMD6M Sep 22 % /usr/local/bin/python3 "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py"
+doing this
+2024-09-11
+^CTraceback (most recent call last):
+  File "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py", line 262, in <module>
+    output_df = get_data(start_date = {
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py", line 167, in get_data
+    response = requests.post(endpoint, json=payload, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connection.py", line 653, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connection.py", line 806, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 440, in ssl_wrap_socket
+    context.load_verify_locations(ca_certs, ca_cert_dir, ca_cert_data)
+KeyboardInterrupt
 
-from datetime import datetime, timedelta
-import os
-
-def get_last_ten_days_data():
-    end_date = datetime.now()
-    start_date = end_date - timedelta(days=10)
-    
-    return get_data(
-        start_date={
-            "year": start_date.year,
-            "month": start_date.month,
-            "day": start_date.day,
-        },
-        end_date={
-            "year": end_date.year,
-            "month": end_date.month,
-            "day": end_date.day,
-        }
-    )
-
-def merge_with_existing_db(filename, new_data):
-    total_file = filename
-    
-    if os.path.exists(total_file):
-        existing_df = pd.read_csv(total_file)
-        merged_df = pd.concat([existing_df, new_data]).drop_duplicates(subset=['id'], keep='last')
-    else:
-        merged_df = new_data
-    
-    merged_df.to_csv(total_file, index=False)
-    print(f"Data merged and saved to {total_file}")
-
-# Get data for the last 10 days
-new_data = get_last_ten_days_data()
-
-# Merge new data with existing database
-filename = 'total.csv'
-merge_with_existing_db(filename, new_data)
-
-
-
-#Rn it assumes that historical data is there, and that there will only be new data from
-#the past 10 days, and then it fetches those ten days and avoids duplicates. 
+mercyolagunju@C02DDESCMD6M Sep 22 % /usr/local/bin/python3 "/Users/mercyolagunju/Desktop/Sundai/Sep 22/producthunt-scraper/product-fetcher.py"
+doing this
+2024-09-11
+2024-09-12
+2024-09-13
+Time taken to run the script: 13.904159784317017 seconds
+2024-09-12
+2024-09-13
+2024-09-14
+2024-09-15
+2024-09-16
+2024-09-17
+2024-09-18
+2024-09-19
+2024-09-20
+2024-09-21
+2024-09-22
+Time taken to run the script: 38.124330043792725 seconds
+Data merged and saved to total.csv
+mercyolagunju@C02DDESCMD6M Sep 22 % 
