@@ -1,8 +1,15 @@
 import requests
 import pandas as pd
-
 # start timing the execution
 import time
+
+#Basically something that lets play with some dataset that has the embeddings. 
+#Scaffolding to check if something's already in the database, and if it is if it's not. 
+
+#Make the excel sheet, and then when I'm updating confirm that I'm not
+
+
+
 
 start_time = time.time()
 # Set the GraphQL endpoint and the headers
@@ -257,6 +264,79 @@ df = pd.DataFrame(results)
 
 # Write the DataFrame to a CSV file
 df.to_csv("products.csv", index=False)
+
+# end the timer
+end_time = time.time()
+
+# print the time taken to run the script
+print(f"Time taken to run the script: {end_time - start_time} seconds")
+
+import datetime
+
+def fetch_last_10_days():
+    all_results = []
+    today = datetime.date.today()
+    
+    for i in range(10):
+        date = today - datetime.timedelta(days=i)
+        year, month, day = date.year, date.month, date.day
+        
+        variables = {
+            "year": year,
+            "month": month,
+            "day": day,
+            "order": "RANKING"
+        }
+        
+        has_next_page = True
+        cursor = None
+        
+        while has_next_page:
+            if cursor:
+                variables["cursor"] = cursor
+            
+            response = requests.post(endpoint, json={"query": query, "variables": variables}, headers=headers)
+            data = response.json()["data"]
+            
+            for edge in data["posts"]["edges"]:
+                node = edge["node"]
+                # Extract data as before...
+                # (Copy the extraction logic from the existing code)
+                
+                all_results.append({
+                    "id": id,
+                    "name": name,
+                    # ... (include all fields as in the existing code)
+                })
+            
+            page_info = data["posts"]["pageInfo"]
+            has_next_page = page_info["hasNextPage"]
+            cursor = page_info["endCursor"]
+    
+    return all_results
+
+# Fetch new data
+new_data = fetch_last_10_days()
+
+# Read existing CSV file if it exists
+try:
+    existing_df = pd.read_csv("products.csv")
+    print(f"Existing data: {len(existing_df)} rows")
+except FileNotFoundError:
+    existing_df = pd.DataFrame()
+    print("No existing data found")
+
+# Convert new data to DataFrame
+new_df = pd.DataFrame(new_data)
+
+# Merge new data with existing data, dropping duplicates
+merged_df = pd.concat([existing_df, new_df]).drop_duplicates(subset=['id'], keep='last')
+
+# Write the merged DataFrame to CSV
+merged_df.to_csv("products.csv", index=False)
+
+print(f"Updated data: {len(merged_df)} rows")
+print(f"New entries added: {len(merged_df) - len(existing_df)}")
 
 # end the timer
 end_time = time.time()
